@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*font-family: "Karantina", system-ui; para titulos
+font-family: "Poppins", sans-serif; para texto
+
+*/
+
+html{
+    background-color: #070336;    
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 1rem;
+    margin: 24px 24px 24px 24px;
+}
+
+h1{
+    font-family: "Karantina",system-ui;
+    font-weight: bold;
+    font-size: 6.125rem;
+    text-align: center;
+    color: #fafafa;
+    padding-top: 8.25rem;
+
+}
+
+h2{
+    font-family: "Karantina",system-ui;
+    font-weight: bold;
+    font-size: 3.125rem;
+    text-align: center;
+    color: #fafafa;
+    text-decoration-line: underline;
+    text-decoration-color: #F29D38;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+button{
+    padding: 5px 10px 5px 10px ;
+    background-color:#070336;
+    color: #fafafa;
+    border-radius: 20px;
+    border-color: #F29D38;
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-size: 15px;
+}
+
+.tamañoLogo{
+    width: 3rem;
+    height: 3rem;;
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+ul{
+    list-style: none;;
+}
+
+.navBar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navBar li a{
+    font-family: "Karantina",system-ui;
+    font-size: 24px;
+    font-family: 200;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: baseline;
+}
+
+.fondoPortada{
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+    align-items:flex-start ;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/portada_index_opaca2.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*.pseudoMensaje::after{
+    content: " TE ATREVES AL RETO";
+    color: #F29D38;
+    padding-top: 200px;
+}*/
+
+.tituloPpal{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+}
+
+.tituloPpal h1{
+    padding-top: 3rem;
+    font-size: 8.125rem;
+}
+
+.tituloPpal h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.tituloPpal button{
+    width: 20%;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+.torneosHome{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+.torneosHome .juegosHome{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.torneosHome .juegosHome img{
+    height: 80%;
+    width: 10.5rem;
+    border-radius: 10%;
+}
+
+.torneosHome .marginBoton{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.equipoHome{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 450px;
+    
+}
+
+.equipoHome .miembrosEquipo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+}
+
+.equipoHome .miembrosEquipo img{
+    display: flex;
+    height: 13.25rem;
+    width: 10.375rem;
+    object-fit: contain;
+    border-radius: 30%;
+}
+
+.equipoHome .miembrosEquipo p{
+    font-size: 12px;
+    text-align: center;
+}
+
+/*.equipoHome .imgEquipo{
+    width: 30%;
+    height: 70%;
+    border-radius: 100%;
+    border: 0.2rem;
+    box-shadow: #F29D38;
+}*/
+
+.newsLetter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.newsLetter label{
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
+}
+
+.newsLetter form .inputLargo{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.logoCarta{
+    width: 3rem;
+    height: 2rem;
+}
+
+.logosRedes{
+    width: 2.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.logoDerechos{
+    width: 1rem;
+    height: 1rem;
+    background-color: #fafafa;
+}
+
+.fondoNosotros{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items:baseline ;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/nosotros_portada.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondoNosotros h1::first-letter{
+    font-size: 8.125rem;
+    color: #F29D38;
+    
+}
+
+.sobreNosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;; 
+}
+
+.sobreNosotros img{
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.sobreNosotros div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sobreNosotros h2{
+    text-align: center;
+}
+
+.sobreNosotros div p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.sobreNosotros div a{
+    text-align: right;
+}
+
+/*.principalJuegos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}*/
+
+.fondoJuegos{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    background-image: url(../assets/mortal_kombat.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.fondoJuegos::first-letter{
+    font-size: 8.125rem;
+    color: #F29D38;
+}
+
+.buscadorJuegos{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+h3{
+    font-family: "Karantina",system-ui;
+    font-weight: normal;
+    font-size: 2.125rem;
+    color: #fafafa;
+    text-align: center;
+}
+
+/*.principalJuegos{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}*/
+
+.contenedorGaleria{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.contenedorGaleria .juegos{
+    width: 25%;
+    height: 70%;
+}
+
+.contenedorGaleria .juegos img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: black
+
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer1 p{
+    font-size:smaller;
+}
+
+
+.footerLogos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: .3125rem;
+}
+
+.footerLogos p{
+    font-size: smaller;
+}
