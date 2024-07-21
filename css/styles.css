@@ -45,8 +45,8 @@ h2{
     color: #fafafa;
     text-decoration-line: underline;
     text-decoration-color: #F29D38;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 button{
@@ -324,6 +324,142 @@ ul{
     width: 100%;
     height: 500px;
 }*/
+
+.portadaBlog{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/gamer-playing-indoors-medium-shot.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: baseline;
+    background-repeat: no-repeat;
+}
+
+.portadaBlog h1{
+    margin-top: 1.5rem;
+}
+
+.portadaBlog h1::first-letter{
+    font-size: 8.125rem;
+    color: #F29D38;
+}
+
+.articulos{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.articuloBlog1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+
+}
+
+.articuloBlog1 img{
+    width: 40%;
+    height: 80%;
+    object-fit: contain;
+
+}
+
+.articuloBlog1 div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.articuloBlog1 div p{
+    font-size: 0.9rem;
+}
+
+.articuloBlog1 div a{
+    text-align: end;
+    margin-right: 10%;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+}
+
+.articuloBlog2{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.articuloBlog2 img{
+    width: 40%;
+    height: 80%;
+    object-fit: contain;
+
+}
+
+.articuloBlog2 div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.articuloBlog2 div p{
+    font-size: 0.9rem;
+}
+
+.articuloBlog2 div a{
+    text-align: end;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+}
+
+.articuloBlog3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.articuloBlog3 img{
+    width: 40%;
+    height: 80%;
+    border-radius: 0%;
+    object-fit: contain;
+
+}
+
+.articuloBlog3 div{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.articuloBlog3 div p{
+    font-size: 0.9rem;
+}
+
+.articuloBlog3 div a{
+    text-align: end;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+}
 
 .fondoJuegos{
     width: 100%;
