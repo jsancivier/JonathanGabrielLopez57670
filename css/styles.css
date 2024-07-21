@@ -13,7 +13,10 @@ font-family: "Poppins", sans-serif; para texto
 */
 
 html{
-    background-color: #070336;    
+    background-color: #070336;
+    background-image:url(../assets/TornamentMode\ logo-02-opaco.png);
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 p{
@@ -199,7 +202,10 @@ ul{
 .equipoHome .miembrosEquipo p{
     font-size: 12px;
     text-align: center;
+    margin-bottom: 0px;
 }
+
+
 
 /*.equipoHome .imgEquipo{
     width: 30%;
@@ -208,7 +214,9 @@ ul{
     border: 0.2rem;
     box-shadow: #F29D38;
 }*/
-
+.newsH2{
+    margin-top: 1px;
+}
 .newsLetter{
     display: flex;
     flex-direction: row;
