@@ -612,9 +612,29 @@ text-align: center;
 }
 
 .buscadorJuegos{
+    display: flex;
+    flex-flow: row wrap;
     width: 100%;
     height: 100px;
     justify-content: center;
+    align-items: baseline;
+    margin-top: 3.125rem;
+    gap: 5px;
+}
+
+.buscadorJuegos input{
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+.buscadorJuegos label{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
 }
 
 h3{
@@ -623,6 +643,7 @@ h3{
     font-size: 2.125rem;
     color: #fafafa;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 /*.principalJuegos{
@@ -630,22 +651,119 @@ h3{
     padding-bottom: 50px;
 }*/
 
-.contenedorGaleria{
+/*.contenedorGaleria{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     margin-top: 150px;
+}*/
+
+
+.juegos1{
+    display: grid;
+    width: 100%;
+    height: 2000px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(20,100px);
+    gap: .625rem .625rem;
 }
 
-.contenedorGaleria .juegos{
-    width: 25%;
-    height: 70%;
-}
-
-.contenedorGaleria .juegos img{
+.juegos1 img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
+
 }
+
+.juegos1 .juegosA{
+    grid-row: 1/4;
+    grid-column: 1/3 ;
+
+}
+.juegos1 .juegosB{
+    grid-row: 1/4 ;
+    grid-column: 3/5 ;
+}
+.juegos1 .juegosC{
+    grid-row: 1/4;
+    grid-column: 5/7;
+}
+.juegos1 .juegosD{
+    grid-row: 1/4;
+    grid-column: 7/9;
+}
+.juegos1 .juegosE{
+    grid-row: 4/7;
+    grid-column: 1/4;
+
+}
+.juegos1 .juegosF{
+    grid-row: 7/10;
+    grid-column: 5/7;
+}
+.juegos1 .juegosG{
+    grid-row: 4/7;
+    grid-column:7/9;
+}
+.juegos1 .juegosH{
+    grid-row: 7/10;
+    grid-column: 1/3;
+}
+.juegos1 .juegosI{
+    grid-row: 7/10;
+    grid-column: 3/5;
+
+}
+
+.juegos1 .juegosJ{
+    grid-row: 7/10;
+    grid-column: 7/9;
+}
+.juegos1 .juegosK{
+    grid-row: 10/13;
+    grid-column: 1/4;
+}
+.juegos1 .juegosL{
+    grid-row: 10/13;
+    grid-column: 4/7;
+}
+.juegos1 .juegosM{
+    grid-row: 4/7;
+    grid-column: 4/7;
+
+}
+.juegos1 .juegosN{
+    grid-row: 10/13;
+    grid-column: 7/9;
+}
+.juegos1 .juegosO{
+    grid-row: 13/16;
+    grid-column: 1/4;
+}
+.juegos1 .juegosP{
+    grid-row: 13/16;
+    grid-column: 4/6;
+}
+.juegos1 .juegosQ{
+    grid-row: 13/16;
+    grid-column: 6/9;
+
+}
+.juegos1 .juegosR{
+    grid-row: 16/19;
+    grid-column: 1/4;
+}
+.juegos1 .juegosS{
+    grid-row: 16/19;
+    grid-column: 4/7;
+}
+.juegos1 .juegosT{
+    grid-row: 16/19;
+    grid-column: 7/9;
+}
+
+
+
 
 footer{
     background-color: black
