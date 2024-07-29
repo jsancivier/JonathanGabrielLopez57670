@@ -825,6 +825,10 @@ footer{
         width: 45%;
         
     }
+    .tituloPpal h1{
+        font-size: 6.25rem;
+
+    }
 }
 @media(max-width:875px){
     .tituloPpal h1{
@@ -842,6 +846,9 @@ footer{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
+    .torneosHome .juegosHome .imagenJuego{
+        width: 16.75rem;
+        height: 18.75rem;
 }
 
 @media(max-width:655px){
@@ -874,3 +881,42 @@ footer{
         margin-top: 0px;
     }
 }
+
+@media(max-width:519px){
+    .torneosHome .juegosHome .imagenJuego{
+        width: 16.75rem;
+        height: 18.75rem;
+}
+
+@media(max-width:425px){
+    .tituloPpal h2{
+        font-size: 2.75rem;
+    }
+    .footerLogos{
+        display: flex;
+        margin-left: 0px ;
+        margin-right: 0.02px ;
+        margin-bottom: 2px;
+        align-items: center;
+        margin-top: 2px;
+        gap: 0.001rem;
+    }
+    .footerLogos p{
+        font-size: 10px;
+    }
+}
+@media(max-width:389px){
+    .tituloPpal h1{
+        font-size: 4rem;
+    }
+    .tituloPpal h2{
+        font-size: 2.75rem;
+    }
+}
+
+@media(max-width:375px){
+    .equipoHome .miembrosEquipo img{
+        height: 60%;
+        width: 80%;
+}
+
