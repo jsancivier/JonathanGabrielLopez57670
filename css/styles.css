@@ -355,6 +355,9 @@ ul{
 
 .articulos{
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -362,25 +365,27 @@ ul{
 .articuloBlog1{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    height: 500px;
-
+    height: 400px;
 }
 
 .articuloBlog1 img{
     width: 40%;
     height: 80%;
+    border-radius: 0%;
     object-fit: contain;
 
 }
 
 .articuloBlog1 div{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
     width: 50%;
     height: 100%;
+    justify-content: center;
+    padding: 20px 40px;
 
 }
 
@@ -389,11 +394,12 @@ ul{
 }
 
 .articuloBlog1 div a{
+    display: block;
     text-align: end;
-    margin-right: 10%;
     font-size: 1.5rem;
     font-family: "Karantina",system-ui;
     letter-spacing: 0.1rem;
+    margin-right: 40px;
 }
 
 .articuloBlog2{
@@ -401,7 +407,7 @@ ul{
     flex-flow: row-reverse wrap;
     justify-content: space-around;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 .articuloBlog2 img{
@@ -413,10 +419,11 @@ ul{
 
 .articuloBlog2 div{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     width: 50%;
     height: 100%;
+    padding: 20px 40px;
 
 }
 
@@ -425,10 +432,12 @@ ul{
 }
 
 .articuloBlog2 div a{
+    display: block;
     text-align: end;
     font-size: 1.5rem;
     font-family: "Karantina",system-ui;
     letter-spacing: 0.1rem;
+    margin-right: 40px;
 }
 
 .articuloBlog3{
@@ -437,7 +446,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 .articuloBlog3 img{
@@ -449,11 +458,12 @@ ul{
 }
 
 .articuloBlog3 div{
-    display: flex;
-    flex-flow: column wrap;
+    display: block;
+    flex-flow: column nowrap;
     width: 50%;
     height: 100%;
     justify-content: center;
+    padding: 20px 40px;
 
 }
 
@@ -462,10 +472,12 @@ ul{
 }
 
 .articuloBlog3 div a{
+    display: block;
     text-align: end;
     font-size: 1.5rem;
     font-family: "Karantina",system-ui;
     letter-spacing: 0.1rem;
+    margin-right: 40px;
 }
 
 .contacto {
@@ -830,6 +842,88 @@ footer{
 
     }
 }
+
+@media(max-width:897px){
+    .articuloBlog1 img{
+        width: 30%;
+        height: 70%;
+        object-fit: contain;
+    
+    }
+    .articuloBlog1 div{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 60%;
+        height: 100%;
+    
+    }
+    
+    .articuloBlog1 div p{
+        font-size: 0.75rem;
+    }
+
+    .articuloBlog1 h2{
+        font-size: 2.5rem;
+    }
+    
+    .articuloBlog1 div a{
+        text-align: end;
+        margin-right: 10%;
+        font-size: 1rem;
+        font-family: "Karantina",system-ui;
+        letter-spacing: 0.1rem;
+    }
+
+    .articuloBlog2 img{
+        width: 30%;
+        height: 70%;
+        object-fit: contain;
+    
+    }
+    .articuloBlog2 div{
+        width: 60%;
+        height: 100%;
+    
+    }
+    
+    .articuloBlog2 div p{
+        font-size: 0.75rem;
+    }
+
+    .articuloBlog2 h2{
+        font-size: 2.5rem;
+    }
+    
+    .articuloBlog2 div a{
+        font-size: 1rem;
+    }
+    
+    .articuloBlog3 img{
+        width: 30%;
+        height: 70%;
+        object-fit: contain;
+    
+    }
+    .articuloBlog3 div{
+        width: 60%;
+        height: 100%;
+    
+    }
+    
+    .articuloBlog3 div p{
+        font-size: 0.75rem;
+    }
+
+    .articuloBlog3 h2{
+        font-size: 2.5rem;
+    }
+    
+    .articuloBlog3 div a{
+        font-size: 1rem;
+    }
+}
+
 @media(max-width:875px){
     .tituloPpal h1{
         font-size: 6.125rem;
@@ -849,6 +943,27 @@ footer{
     .torneosHome .juegosHome .imagenJuego{
         width: 16.75rem;
         height: 18.75rem;
+    }
+    .articuloBlog1{
+        align-items: center;
+    }
+    .articuloBlog1 h2{
+        font-size: 2.25rem;
+    }
+    .articuloBlog2{
+        align-items: center;
+    }
+    .articuloBlog2 h2{
+        font-size: 2.25rem;
+    }
+    .articuloBlog3{
+        align-items: center;
+    }
+    .articuloBlog3 h2{
+        font-size: 2.25rem;
+    }
+    
+
 }
 
 @media(max-width:655px){
@@ -887,11 +1002,27 @@ footer{
         width: 16.75rem;
         height: 18.75rem;
 }
+}
 
 @media(max-width:425px){
     .tituloPpal h2{
         font-size: 2.75rem;
     }
+    .articuloBlog1{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .articuloBlog1 div{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .articuloBlog1 div h2{
+        font-size: 2.25rem;
+    }
+    .articuloBlog1 div p{
+        font-size: 0.6rem;
+    }
+
     .footerLogos{
         display: flex;
         margin-left: 0px ;
@@ -919,4 +1050,4 @@ footer{
         height: 60%;
         width: 80%;
 }
-
+}
