@@ -1,0 +1,5 @@
+.navBar{
+    @include flex(row,nowrap,space-between,center,none);
+    margin: 5px 10px;
+
+}

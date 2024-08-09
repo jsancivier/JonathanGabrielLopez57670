@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color:map-get($colores, color4 );
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image:url("../assets/TornamentMode\ logo-02-opaco.png");
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: map-get($colores, color1 );
+    font-family: "popins";
+}
+
+h2{
+    font-family: "Karantina";
+    font-weight: bold;
+    font-size: map-get($fuente , md );
+    text-align: center;
+    color: map-get($colores, color4 );
+    text-decoration-line: underline;
+    text-decoration-color: map-get($colores , color2 ) #F29D38;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-family:"Popins";
+    font-weight: 300;
+    color: map-get( $colores , color4 );
+    font-size: map-get($fuente, sm );
+}
+

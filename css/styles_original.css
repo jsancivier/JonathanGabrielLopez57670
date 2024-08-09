@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*font-family: "Karantina", system-ui; para titulos
+font-family: "Poppins", sans-serif; para texto
+
+*/
+
+body{
+    background-image:url(../assets/TornamentMode\ logo-02-opaco.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: #070336;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 1rem;
+    margin: 24px 24px 24px 24px;
+}
+
+h1{
+    font-family: "Karantina",system-ui;
+    font-weight: bold;
+    font-size: 6.125rem;
+    text-align: center;
+    color: #fafafa;
+    padding-top: 8.25rem;
+
+}
+
+h2{
+    font-family: "Karantina",system-ui;
+    font-weight: bold;
+    font-size: 3.125rem;
+    text-align: center;
+    color: #fafafa;
+    text-decoration-line: underline;
+    text-decoration-color: #F29D38;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+button{
+    padding: 5px 10px 5px 10px ;
+    background-color:#070336;
+    color: #fafafa;
+    border-radius: 20px;
+    border-color: #F29D38;
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-size: 15px;
+}
+
+.tamañoLogo{
+    width: 3rem;
+    height: 3rem;;
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+ul{
+    list-style: none;
+}
+
+.navBar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navBar li a{
+    font-family: "Karantina",system-ui;
+    font-size: 24px;
+    font-family: 200;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: baseline;
+}
+
+
+.fondoPortada{
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+    align-items:flex-start ;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/portada_index_opaca2.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tituloPpal{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+}
+.tituloPpal h1{
+    padding-top: 3rem;
+        font-size: 8.125rem;
+}
+.tituloPpal h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.tituloPpal a{
+    width: 20%;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.sectionTorneos{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 1.25rem;
+
+}
+.sectionTorneos .torneosHome{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.torneosHome .juegosHome{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.torneosHome .juegosHome .imagenJuego{
+    display: flex;
+    flex-wrap: wrap;
+    width: 13.75rem;
+    height: 250px;
+    margin: 0 20px;
+}
+
+.torneosHome .juegosHome img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.torneosHome .marginBoton{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.equipoHome{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.equipoHome .miembrosEquipo{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.equipoHome .miembrosEquipo a{
+    display: block;
+}
+
+.equipoHome .miembrosEquipo img{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.equipoHome .miembrosEquipo p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.newsH2 {
+    margin-top: 50px;
+}
+
+.newsLetter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.newsLetter label{
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
+}
+
+.newsLetter form .inputLargo{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.logoCarta{
+    width: 3rem;
+    height: 2rem;
+}
+
+.logosRedes{
+    width: 2.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.logoDerechos{
+    width: 1rem;
+    height: 1rem;
+    background-color: #fafafa;
+}
+
+.fondoNosotros{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items:baseline ;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/nosotros_portada.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondoNosotros h1::first-letter{
+    font-size: 8.125rem;
+    color: #F29D38;
+    
+}
+
+.sobreNosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 1.875rem; 
+}
+
+.sobreNosotros .imagenNosotros{
+    width: 45%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+.sobreNosotros .quienesSomos {
+    display: flex;
+    flex-flow: column wrap;
+    height: 80%;
+    width: 50%;
+}
+
+.sobreNosotros .quienesSomos h2{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sobreNosotros .quienesSomos p{
+    font-size: 1rem;
+}
+
+.sobreNosotros .quienesSomos a{
+    text-align: end;
+    margin-right: 10%;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+}
+
+/*.principalJuegos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}*/
+
+.portadaBlog{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/gamer-playing-indoors-medium-shot.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: baseline;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portadaBlog h1{
+    margin-top: 1.5rem;
+}
+
+.portadaBlog h1::first-letter{
+    font-size: 8.125rem;
+    color: #F29D38;
+}
+
+.articulos{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.articuloBlog1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.articuloBlog1 img{
+    width: 40%;
+    height: 80%;
+    border-radius: 0%;
+    object-fit: contain;
+
+}
+
+.articuloBlog1 div{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    padding: 20px 40px;
+
+}
+
+.articuloBlog1 div p{
+    font-size: 0.9rem;
+}
+
+.articuloBlog1 div a{
+    display: block;
+    text-align: end;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+    margin-right: 40px;
+}
+
+.articuloBlog2{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+
+.articuloBlog2 img{
+    width: 40%;
+    height: 80%;
+    object-fit: contain;
+
+}
+
+.articuloBlog2 div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 20px 40px;
+
+}
+
+.articuloBlog2 div p{
+    font-size: 0.9rem;
+}
+
+.articuloBlog2 div a{
+    display: block;
+    text-align: end;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+    margin-right: 40px;
+}
+
+.articuloBlog3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.articuloBlog3 img{
+    width: 40%;
+    height: 80%;
+    border-radius: 0%;
+    object-fit: contain;
+
+}
+
+.articuloBlog3 div{
+    display: block;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    padding: 20px 40px;
+
+}
+
+.articuloBlog3 div p{
+    font-size: 0.9rem;
+}
+
+.articuloBlog3 div a{
+    display: block;
+    text-align: end;
+    font-size: 1.5rem;
+    font-family: "Karantina",system-ui;
+    letter-spacing: 0.1rem;
+    margin-right: 40px;
+}
+
+.contacto {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/FORNITE\ TM.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: baseline;
+    background-repeat: no-repeat;
+}
+
+.contacto h1{
+    margin-top: 30px;
+}
+
+.contacto h1::first-letter{
+    font-size: 8.125rem;
+color: #F29D38;
+}
+
+
+.contacto1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+}
+
+.contacto1 .contactanos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+    gap: 1.25rem;
+
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: end;
+    gap: 0.7rem
+
+}
+
+.formulario li .inputLargo2{
+    width: 370px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.formulario li label{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
+    margin-right: 10px;
+}
+
+.formulario li .inputLargo3{
+    width: 290px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.formulario li .inputLargo4{
+    width: 370px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.buttonFormulario{
+    position: relative;
+    float: right;
+}
+
+
+.contactoRedesSociales{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 45%;
+
+}
+
+.contactoRedesSociales h2{
+
+text-align: center;
+}
+
+.contactoRedesSociales p{
+    font-size: 1rem;
+}
+
+.contactoRedesSociales .redesContacto{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-content: flex-start;
+
+}
+
+.redesContacto .whatsappTelefono{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.whatsappTelefono img{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+}
+
+
+.mailDireccion{
+    display:  flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mailDireccion img{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+}
+
+.fondoJuegos{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    background-image: url(../assets/mortal_kombat.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.fondoJuegos::first-letter{
+    font-size: 8.125rem;
+    color: #F29D38;
+}
+
+.buscadorJuegos{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 3.125rem;
+    gap: 5px;
+}
+
+.buscadorJuegos input{
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+.buscadorJuegos label{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
+}
+
+h3{
+    font-family: "Karantina",system-ui;
+    font-weight: normal;
+    font-size: 2.125rem;
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*.principalJuegos{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}*/
+
+/*.contenedorGaleria{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 150px;
+}*/
+
+
+.juegos1{
+    display: grid;
+    width: 100%;
+    height: 2000px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(20,100px);
+    gap: .625rem .625rem;
+}
+
+.juegos1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.juegos1 .juegosA{
+    grid-row: 1/4;
+    grid-column: 1/3 ;
+
+}
+.juegos1 .juegosB{
+    grid-row: 1/4 ;
+    grid-column: 3/5 ;
+}
+.juegos1 .juegosC{
+    grid-row: 1/4;
+    grid-column: 5/7;
+}
+.juegos1 .juegosD{
+    grid-row: 1/4;
+    grid-column: 7/9;
+}
+.juegos1 .juegosE{
+    grid-row: 4/7;
+    grid-column: 1/4;
+
+}
+.juegos1 .juegosF{
+    grid-row: 7/10;
+    grid-column: 5/7;
+}
+.juegos1 .juegosG{
+    grid-row: 4/7;
+    grid-column:7/9;
+}
+.juegos1 .juegosH{
+    grid-row: 7/10;
+    grid-column: 1/3;
+}
+.juegos1 .juegosI{
+    grid-row: 7/10;
+    grid-column: 3/5;
+
+}
+
+.juegos1 .juegosJ{
+    grid-row: 7/10;
+    grid-column: 7/9;
+}
+.juegos1 .juegosK{
+    grid-row: 10/13;
+    grid-column: 1/4;
+}
+.juegos1 .juegosL{
+    grid-row: 10/13;
+    grid-column: 4/7;
+}
+.juegos1 .juegosM{
+    grid-row: 4/7;
+    grid-column: 4/7;
+
+}
+.juegos1 .juegosN{
+    grid-row: 10/13;
+    grid-column: 7/9;
+}
+.juegos1 .juegosO{
+    grid-row: 13/16;
+    grid-column: 1/4;
+}
+.juegos1 .juegosP{
+    grid-row: 13/16;
+    grid-column: 4/6;
+}
+.juegos1 .juegosQ{
+    grid-row: 13/16;
+    grid-column: 6/9;
+
+}
+.juegos1 .juegosR{
+    grid-row: 16/19;
+    grid-column: 1/4;
+}
+.juegos1 .juegosS{
+    grid-row: 16/19;
+    grid-column: 4/7;
+}
+.juegos1 .juegosT{
+    grid-row: 16/19;
+    grid-column: 7/9;
+}
+
+footer{
+    background-color: black
+
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.footer1 p{
+    font-size:smaller;
+    margin-right: 0.1rem;
+}
+
+
+.footerLogos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 0.01rem;
+}
+
+.footerLogos p{
+    font-size: smaller;
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+
+@media(max-width:1024px){
+    .juegosHome{
+        justify-content: center;
+    }
+    .imagenJuego{
+        width: 45%;
+        padding: 25px;
+    }
+    .miembrosEquipo{
+        width: 45%;
+        
+    }
+    .tituloPpal h1{
+        font-size: 6.25rem;
+
+    }
+}
+
+@media(max-width:897px){
+    .articuloBlog1 img{
+        width: 30%;
+        height: 70%;
+        object-fit: contain;
+    
+    }
+    .articuloBlog1 div{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 60%;
+        height: 100%;
+    
+    }
+    
+    .articuloBlog1 div p{
+        font-size: 0.75rem;
+    }
+
+    .articuloBlog1 h2{
+        font-size: 2.5rem;
+    }
+    
+    .articuloBlog1 div a{
+        text-align: end;
+        margin-right: 10%;
+        font-size: 1rem;
+        font-family: "Karantina",system-ui;
+        letter-spacing: 0.1rem;
+    }
+
+    .articuloBlog2 img{
+        width: 30%;
+        height: 70%;
+        object-fit: contain;
+    
+    }
+    .articuloBlog2 div{
+        width: 60%;
+        height: 100%;
+    
+    }
+    
+    .articuloBlog2 div p{
+        font-size: 0.75rem;
+    }
+
+    .articuloBlog2 h2{
+        font-size: 2.5rem;
+    }
+    
+    .articuloBlog2 div a{
+        font-size: 1rem;
+    }
+    
+    .articuloBlog3 img{
+        width: 30%;
+        height: 70%;
+        object-fit: contain;
+    
+    }
+    .articuloBlog3 div{
+        width: 60%;
+        height: 100%;
+    
+    }
+    
+    .articuloBlog3 div p{
+        font-size: 0.75rem;
+    }
+
+    .articuloBlog3 h2{
+        font-size: 2.5rem;
+    }
+    
+    .articuloBlog3 div a{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:875px){
+    .tituloPpal h1{
+        font-size: 6.125rem;
+    }
+}
+
+@media(max-width:768px){
+    .tituloPpal h1 {
+        padding-top: 2rem;
+        font-size: 6rem;
+    }
+    .tituloPpal h2 {
+        font-size: 3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .torneosHome .juegosHome .imagenJuego{
+        width: 16.75rem;
+        height: 18.75rem;
+    }
+    .articuloBlog1{
+        align-items: center;
+    }
+    .articuloBlog1 h2{
+        font-size: 2.25rem;
+    }
+    .articuloBlog2{
+        align-items: center;
+    }
+    .articuloBlog2 h2{
+        font-size: 2.25rem;
+    }
+    .articuloBlog3{
+        align-items: center;
+    }
+    .articuloBlog3 h2{
+        font-size: 2.25rem;
+    }
+    
+
+}
+
+@media(max-width:655px){
+    .tituloPpal{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsLetter{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1px;
+    }
+    .formColumnMedia655{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:519px){
+    .torneosHome .juegosHome .imagenJuego{
+        width: 16.75rem;
+        height: 18.75rem;
+}
+}
+
+@media(max-width:425px){
+    .tituloPpal h2{
+        font-size: 2.75rem;
+    }
+    .articuloBlog1{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .articuloBlog1 div{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .articuloBlog1 div h2{
+        font-size: 2.25rem;
+    }
+    .articuloBlog1 div p{
+        font-size: 0.6rem;
+    }
+
+    .footerLogos{
+        display: flex;
+        margin-left: 0px ;
+        margin-right: 0.02px ;
+        margin-bottom: 2px;
+        align-items: center;
+        margin-top: 2px;
+        gap: 0.001rem;
+    }
+    .footerLogos p{
+        font-size: 10px;
+    }
+}
+@media(max-width:389px){
+    .tituloPpal h1{
+        font-size: 4rem;
+    }
+    .tituloPpal h2{
+        font-size: 2.75rem;
+    }
+}
+
+@media(max-width:375px){
+    .equipoHome .miembrosEquipo img{
+        height: 60%;
+        width: 80%;
+}
+}

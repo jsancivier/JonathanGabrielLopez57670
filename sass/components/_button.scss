@@ -1,0 +1,11 @@
+button{
+    padding: 5px 10px;
+    background-color:map-get($colores , color1 );
+    color: map-get($colores , color4 );
+    border-radius: 20px;
+    border-color: map-get($colores , color2 );
+    font-family: "Poppins";
+    font-weight:500;
+    font-size: map-get($fuente , xsm );
+    
+}
