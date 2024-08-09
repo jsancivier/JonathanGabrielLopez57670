@@ -249,17 +249,6 @@ ul{
     height: 2rem;
 }
 
-.logosRedes{
-    width: 2.5rem;
-    height: 1.5rem;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
-}
-.logoDerechos{
-    width: 1rem;
-    height: 1rem;
-    background-color: #fafafa;
-}
 
 .fondoNosotros{
     display: flex;
@@ -329,16 +318,16 @@ ul{
     justify-content: space-between;
     width: 100%;
     height: 500px;
-}*/
-
-.portadaBlog{
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-image: url(../assets/gamer-playing-indoors-medium-shot.png);
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
+    }*/
+    
+    .portadaBlog{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        background-image: url(../assets/gamer-playing-indoors-medium-shot.png);
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
     align-items: baseline;
     background-repeat: no-repeat;
     background-position: center;
@@ -386,7 +375,7 @@ ul{
     height: 100%;
     justify-content: center;
     padding: 20px 40px;
-
+    
 }
 
 .articuloBlog1 div p{
@@ -414,7 +403,7 @@ ul{
     width: 40%;
     height: 80%;
     object-fit: contain;
-
+    
 }
 
 .articuloBlog2 div{
@@ -454,7 +443,7 @@ ul{
     height: 80%;
     border-radius: 0%;
     object-fit: contain;
-
+    
 }
 
 .articuloBlog3 div{
@@ -464,7 +453,7 @@ ul{
     height: 100%;
     justify-content: center;
     padding: 20px 40px;
-
+    
 }
 
 .articuloBlog3 div p{
@@ -498,7 +487,7 @@ ul{
 
 .contacto h1::first-letter{
     font-size: 8.125rem;
-color: #F29D38;
+    color: #F29D38;
 }
 
 
@@ -518,7 +507,7 @@ color: #F29D38;
     width: 50%;
     margin-top: 50px;
     gap: 1.25rem;
-
+    
 }
 
 .formulario {
@@ -527,7 +516,7 @@ color: #F29D38;
     justify-content: flex-start;
     align-items: end;
     gap: 0.7rem
-
+    
 }
 
 .formulario li .inputLargo2{
@@ -566,12 +555,12 @@ color: #F29D38;
     flex-flow: column wrap;
     justify-content: space-evenly;
     width: 45%;
-
+    
 }
 
 .contactoRedesSociales h2{
-
-text-align: center;
+    
+    text-align: center;
 }
 
 .contactoRedesSociales p{
@@ -584,14 +573,14 @@ text-align: center;
     width: 100%;
     justify-content: space-around;
     align-content: flex-start;
-
+    
 }
 
 .redesContacto .whatsappTelefono{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-
+    
 }
 
 .whatsappTelefono img{
@@ -622,7 +611,7 @@ text-align: center;
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
-    }
+}
 
 .fondoJuegos::first-letter{
     font-size: 8.125rem;
@@ -646,7 +635,7 @@ text-align: center;
     border-radius: 20px;
     align-items: center;
     padding-left: 5px;
-
+    
 }
 
 .buscadorJuegos label{
@@ -667,17 +656,17 @@ h3{
 /*.principalJuegos{
     margin-top: 50px;
     padding-bottom: 50px;
-}*/
-
-/*.contenedorGaleria{
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    margin-top: 150px;
-}*/
-
-
-.juegos1{
+    }*/
+    
+    /*.contenedorGaleria{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        margin-top: 150px;
+        }*/
+        
+        
+        .juegos1{
     display: grid;
     width: 100%;
     height: 2000px;
@@ -690,13 +679,13 @@ h3{
     width: 100%;
     height: 100%;
     object-fit: contain;
-
+    
 }
 
 .juegos1 .juegosA{
     grid-row: 1/4;
     grid-column: 1/3 ;
-
+    
 }
 .juegos1 .juegosB{
     grid-row: 1/4 ;
@@ -713,7 +702,7 @@ h3{
 .juegos1 .juegosE{
     grid-row: 4/7;
     grid-column: 1/4;
-
+    
 }
 .juegos1 .juegosF{
     grid-row: 7/10;
@@ -730,7 +719,7 @@ h3{
 .juegos1 .juegosI{
     grid-row: 7/10;
     grid-column: 3/5;
-
+    
 }
 
 .juegos1 .juegosJ{
@@ -765,7 +754,7 @@ h3{
 .juegos1 .juegosQ{
     grid-row: 13/16;
     grid-column: 6/9;
-
+    
 }
 .juegos1 .juegosR{
     grid-row: 16/19;
@@ -782,7 +771,7 @@ h3{
 
 footer{
     background-color: black
-
+    
 }
 
 .footer{
@@ -823,6 +812,18 @@ footer{
     font-size: smaller;
     margin-left: .4rem;
     margin-right: .4rem;
+}
+
+.logosRedes{
+    width: 2.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.logoDerechos{
+    width: 1rem;
+    height: 1rem;
+    background-color: #fafafa;
 }
 
 @media(max-width:1024px){

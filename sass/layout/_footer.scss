@@ -1,4 +1,6 @@
 footer{
-    background-color: map-get($colores , color3 )
+    @include flex(row,wrap,space-between,baseline,0px);
+    background-color: map-get($colores , color3 );
+    padding-top: 20px;
 
 }

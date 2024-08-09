@@ -9,6 +9,16 @@ a{
     list-style: none;
     text-decoration: none;
     color:map-get($colores, color4 );
+    font-family: "Karantina";
+    font-size: map-get($fuente , m );
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: baseline;
+    &:hover{
+        color: map-get($colores, color2 )
+    }
 }
 
 ul{
@@ -30,9 +40,9 @@ h2{
     text-align: center;
     color: map-get($colores, color4 );
     text-decoration-line: underline;
-    text-decoration-color: map-get($colores , color2 ) #F29D38;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    text-decoration-color: map-get($colores , color2 );
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
 }
 
 p{
@@ -40,5 +50,7 @@ p{
     font-weight: 300;
     color: map-get( $colores , color4 );
     font-size: map-get($fuente, sm );
+    margin: 24px 24px;
 }
+
 

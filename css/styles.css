@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
@@ -7,7 +8,16 @@
 a {
   list-style: none;
   text-decoration: none;
-  color: white; }
+  color: white;
+  font-family: "Karantina";
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: baseline; }
+  a:hover {
+    color: #F29D38; }
 
 ul {
   list-style: none; }
@@ -26,18 +36,26 @@ h2 {
   text-align: center;
   color: white;
   text-decoration-line: underline;
-  text-decoration-color: #F29D38 #F29D38;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem; }
+  text-decoration-color: #F29D38;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem; }
 
 p {
   font-family: "Popins";
   font-weight: 300;
   color: white;
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin: 24px 24px; }
 
 footer {
-  background-color: black; }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0px;
+  background-color: black;
+  padding-top: 20px; }
 
 .navBar {
   display: flex;
@@ -57,3 +75,205 @@ button {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 0.9375rem; }
+
+.tamañoLogo {
+  width: 3rem;
+  height: 3rem; }
+
+.fondoPortada {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/portada_index_opaca2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .fondoPortada div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+    width: 60%;
+    height: 500px; }
+    .fondoPortada div h1 {
+      font-family: "Karantina";
+      color: white;
+      font-size: 8.125rem;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 5.25rem; }
+      .fondoPortada div h1 h2 {
+        margin: 1rem 1rem; }
+
+.sectionTorneos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: none;
+  gap: 1.25rem;
+  width: 100%;
+  height: auto; }
+  .sectionTorneos div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: none;
+    gap: 0px;
+    width: 100%; }
+    .sectionTorneos div div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: none;
+      gap: 0px;
+      width: 100%; }
+      .sectionTorneos div div div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: none;
+        align-items: none;
+        gap: 0px;
+        width: 13.75rem;
+        height: 15.625rem;
+        margin: 0px 20px; }
+        .sectionTorneos div div div img {
+          height: 100%;
+          width: 100%;
+          border-radius: 10%; }
+
+.marginBoton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: none;
+  gap: 0px;
+  margin: 50px 0px; }
+
+.equipoHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: none;
+  gap: 0px;
+  width: 100%;
+  height: auto;
+  margin: 100px 0px; }
+
+.miembrosEquipo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: center;
+  gap: 0px;
+  width: 400px;
+  height: 400px; }
+  .miembrosEquipo a {
+    display: block; }
+
+.miembrosEquipo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: center;
+  gap: 0px;
+  width: 400px;
+  height: 400px; }
+  .miembrosEquipo img {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 1.875rem; }
+
+.miembrosEquipo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: center;
+  gap: 0px;
+  width: 400px;
+  height: 400px; }
+  .miembrosEquipo p {
+    text-align: center; }
+
+.newsLetter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 10px;
+  margin: 50px 0px; }
+  .newsLetter img {
+    width: 3rem;
+    height: 2rem; }
+
+.formColumnMedia655 label {
+  font-size: 1rem;
+  font-family: "Poppins";
+  color: white; }
+
+.formColumnMedia655 input {
+  width: 300px;
+  height: 25px;
+  border-radius: 20px; }
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 0px;
+  margin: 5px 10px 5px 10px; }
+  footer div p {
+    font-size: 0.9375rem; }
+
+.footerLogos2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px; }
+  .footerLogos2 p {
+    font-size: 0.9375rem;
+    margin-left: .4rem;
+    /*margin-right: .4rem;*/ }
+
+.footerLogos2 .logoDerechos {
+  width: 1rem;
+  height: 1rem; }
+
+.footerLogos1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.01px; }
+  .footerLogos1 p {
+    font-size: 0.9375rem;
+    margin-left: .4rem;
+    /*margin-right: .4rem;*/ }
+
+.footerLogos1 .logosRedes {
+  width: 2.5rem;
+  height: 1.5rem;
+  /*margin: 0.03rem 0rem;*/ }
