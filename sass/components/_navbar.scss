@@ -1,5 +1,8 @@
 .navBar{
     @include flex(row,nowrap,space-between,center,none);
     margin: 5px 10px;
+    font-family: "Karantina";
+    color:map-get($colores,color4 );
+    font-size: map-get($fuente,sm );
 
 }

@@ -6,7 +6,7 @@
 @import "./base/typografias";
 
 @import "./layout/header";
-@import "./layout/main_index";
+@import "./layout/main_nosotros";
 @import "./layout/footer";
 
 @import"./components/navbar";
@@ -15,6 +15,18 @@
 .tamañoLogo{
     width: 3rem;
     height: 3rem;
+}
+
+.collapse{
+    ul{
+        li{
+            a{
+                font-family: "Karantina";
+                color:map-get($colores,color4 );
+                font-size: map-get($fuente,sm );
+            }
+        }
+    }
 }
 
 .fondoPortada{
@@ -137,6 +149,90 @@
     }
 }
 
+.fondoNosotros{
+    @include flex(row,nowrap,center,center,0px);
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/nosotros_portada.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    h1{
+        font-family: "Karantina";
+        font-size: map-get($fuente,l );
+        &::first-letter{
+            color: map-get($colores,color2 );
+
+        }
+    }
+}
+
+/*.sobreNosotros{
+        @include flex(row,wrap,space-between,center,0px);
+        width: 100px;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 1.875rem;
+}
+
+.imagenNosotros{
+    width: 45%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+.quienesSomos{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 80%;
+    width: 40%;
+    h2{
+        text-align: center;
+    }
+    a{
+        text-align: end;
+        margin-right: 10px;
+        font-family: "Karantina";
+        letter-spacing: 0.1rem;
+    }
+}
+*/
+
+
+article{
+    @include flex(row,wrap,flex-start,center,100px);
+    width: 100%;
+    height: 500px;
+    margin: 50px 0px;
+    padding: 0rem 1.875rem;
+    .imgNosotros{
+        width: 40%;
+        height: 80%;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10%;
+        }
+    }
+    .quienesSomos{
+        display: flex;
+        flex-flow: column wrap;
+        width: 50%;
+        height: 80%;
+        p{
+            font-family: "Poppins"
+        }
+        a{
+            text-align: end;
+            font-family: "Karantina";
+            letter-spacing: 0.1rem;
+            margin-right: 10%
+        }
+    }
+}
+
+
 footer{
     div{
         @include flex(row,wrap,flex-start,baseline, 0px);
@@ -147,10 +243,17 @@ footer{
     }
 }
 
+.footer1{
+    ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
 
 
 .footerLogos2{
-    @include flex(row,wrap,center,center,0px);
+    @include flex(row,wrap,center,center,20px);
     p{
         font-size: map-get($fuente,xsm );
         margin-left: .4rem;
@@ -167,7 +270,7 @@ footer{
 
 
 .footerLogos1{
-    @include flex(row,wrap,center,center,0.01px);
+    @include flex(row,wrap,center,center,0.01rem);
     p{
         font-size: map-get($fuente,xsm );
         margin-left: .4rem;

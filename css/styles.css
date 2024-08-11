@@ -37,8 +37,8 @@ h2 {
   color: white;
   text-decoration-line: underline;
   text-decoration-color: #F29D38;
-  margin-top: 3.125rem;
-  margin-bottom: 3.125rem; }
+  /*margin-top: 3.125rem;
+    margin-bottom: 3.125rem;*/ }
 
 p {
   font-family: "Popins";
@@ -64,7 +64,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: none;
-  margin: 5px 10px; }
+  margin: 5px 10px;
+  font-family: "Karantina";
+  color: white;
+  font-size: 1rem; }
 
 button {
   padding: 5px 10px;
@@ -79,6 +82,11 @@ button {
 .tamañoLogo {
   width: 3rem;
   height: 3rem; }
+
+.collapse ul li a {
+  font-family: "Karantina";
+  color: white;
+  font-size: 1rem; }
 
 .fondoPortada {
   display: flex;
@@ -234,6 +242,87 @@ button {
   height: 25px;
   border-radius: 20px; }
 
+.fondoNosotros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/nosotros_portada.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .fondoNosotros h1 {
+    font-family: "Karantina";
+    font-size: 8.125rem; }
+    .fondoNosotros h1::first-letter {
+      color: #F29D38; }
+
+/*.sobreNosotros{
+        @include flex(row,wrap,space-between,center,0px);
+        width: 100px;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 1.875rem;
+}
+
+.imagenNosotros{
+    width: 45%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+.quienesSomos{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 80%;
+    width: 40%;
+    h2{
+        text-align: center;
+    }
+    a{
+        text-align: end;
+        margin-right: 10px;
+        font-family: "Karantina";
+        letter-spacing: 0.1rem;
+    }
+}
+*/
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  height: 500px;
+  margin: 50px 0px;
+  padding: 0rem 1.875rem; }
+  article .imgNosotros {
+    width: 40%;
+    height: 80%; }
+    article .imgNosotros img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10%; }
+  article .quienesSomos {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    height: 80%; }
+    article .quienesSomos p {
+      font-family: "Poppins"; }
+    article .quienesSomos a {
+      text-align: end;
+      font-family: "Karantina";
+      letter-spacing: 0.1rem;
+      margin-right: 10%; }
+
 footer div {
   display: flex;
   flex-direction: row;
@@ -245,13 +334,17 @@ footer div {
   footer div p {
     font-size: 0.9375rem; }
 
+.footer1 ul {
+  display: flex;
+  justify-content: flex-start; }
+
 .footerLogos2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0px; }
+  gap: 20px; }
   .footerLogos2 p {
     font-size: 0.9375rem;
     margin-left: .4rem;
@@ -267,7 +360,7 @@ footer div {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.01px; }
+  gap: 0.01rem; }
   .footerLogos1 p {
     font-size: 0.9375rem;
     margin-left: .4rem;
