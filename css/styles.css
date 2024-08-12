@@ -399,3 +399,96 @@ article {
 
 .articuloBlog2 {
   flex-direction: row-reverse; }
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/FORNITE_TM.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .contacto h1 {
+    font-family: "Karantina";
+    font-size: 8.125rem;
+    color: white; }
+    .contacto h1::first-letter {
+      color: #F29D38; }
+
+.contacto1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: none;
+  gap: 0px;
+  width: 100%;
+  height: 600px; }
+  .contacto1 div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 50%; }
+    .contacto1 div form ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: end;
+      gap: 0.7rem; }
+      .contacto1 div form ul li label {
+        font-family: "Poppins";
+        font-size: 1rem;
+        color: white;
+        margin-right: 10px; }
+      .contacto1 div form ul li .inputLargo2, .contacto1 div form ul li .inputLargo3, .contacto1 div form ul li .inputLargo4 {
+        width: 370px;
+        height: 25px;
+        border-radius: 20px; }
+      .contacto1 div form ul li .inputLargo3 {
+        width: 290px; }
+      .contacto1 div form ul li .inputLargo4 {
+        height: 100px;
+        border-radius: 5px; }
+  .contacto1 .contactoRedesSociales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: none;
+    gap: 20px;
+    width: 50%; }
+    .contacto1 .contactoRedesSociales div {
+      display: flex;
+      width: 100%; }
+      .contacto1 .contactoRedesSociales div p {
+        font-family: "Poppins";
+        color: white; }
+    .contacto1 .contactoRedesSociales .redesContacto {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0px;
+      width: 100%; }
+      .contacto1 .contactoRedesSociales .redesContacto .redes1, .contacto1 .contactoRedesSociales .redesContacto .redes2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: none;
+        align-items: center;
+        gap: 0px;
+        width: 50%; }
+        .contacto1 .contactoRedesSociales .redesContacto .redes1 img, .contacto1 .contactoRedesSociales .redesContacto .redes2 img {
+          width: 2.5rem;
+          height: 2.5rem;
+          object-fit: contain; }
