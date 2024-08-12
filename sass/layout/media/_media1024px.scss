@@ -1,0 +1,22 @@
+@media(max-width:1024px){
+    .tituloPpal{
+        h1{
+            font-size: 4.25rem;
+        }
+        h2{
+            font-size: 3rem;
+        }
+        
+    }
+    .juegosHome{
+        justify-content: center;
+    }
+    .imagenJuego{
+        width: 45%;
+        padding: 25px;
+    }
+    .miembrosEquipo{
+        width: 45%;
+        
+    }
+}

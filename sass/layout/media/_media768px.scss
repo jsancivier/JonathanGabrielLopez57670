@@ -1,0 +1,40 @@
+@media(max-width:768px){
+    .tituloPpal{
+        h1{
+        padding-top: 2rem;
+        font-size: 6rem;
+        }
+        h2 {
+            font-size: 3rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+    .torneosHome{
+        div{
+            div{
+                width: 16.75rem;
+                height: 18.75rem;
+            }
+        }
+        
+    }
+    .articuloBlog1{
+        align-items: center;
+        h2{
+            font-size: 2.25rem;
+        }
+    }
+    .articuloBlog2{
+        align-items: center;
+        h2{
+            font-size: 2.25rem;
+        }
+    }
+    .articuloBlog3{
+        align-items: center;
+        h2{
+            font-size: 2.25rem;
+        }
+    }
+}

@@ -12,6 +12,7 @@
 @import"./components/navbar";
 @import"./components/button";
 
+
 .tamañoLogo{
     width: 3rem;
     height: 3rem;
@@ -506,3 +507,6 @@ H3{
     margin-bottom: 50px;
 
 }
+
+@import "../sass/layout/media/media1024px";
+@import "../sass/layout/media/media768px";

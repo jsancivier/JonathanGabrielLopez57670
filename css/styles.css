@@ -616,3 +616,40 @@ H3 {
   color: white;
   text-align: center;
   margin-bottom: 50px; }
+
+@media (max-width: 1024px) {
+  .tituloPpal h1 {
+    font-size: 4.25rem; }
+  .tituloPpal h2 {
+    font-size: 3rem; }
+  .juegosHome {
+    justify-content: center; }
+  .imagenJuego {
+    width: 45%;
+    padding: 25px; }
+  .miembrosEquipo {
+    width: 45%; } }
+
+@media (max-width: 768px) {
+  .tituloPpal h1 {
+    padding-top: 2rem;
+    font-size: 6rem; }
+  .tituloPpal h2 {
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
+  .torneosHome div div {
+    width: 16.75rem;
+    height: 18.75rem; }
+  .articuloBlog1, .articuloBlog2, .articuloBlog3 {
+    align-items: center; }
+    .articuloBlog1 h2, .articuloBlog2 h2, .articuloBlog3 h2 {
+      font-size: 2.25rem; }
+  .articuloBlog2 {
+    align-items: center; }
+    .articuloBlog2 h2 {
+      font-size: 2.25rem; }
+  .articuloBlog3 {
+    align-items: center; }
+    .articuloBlog3 h2 {
+      font-size: 2.25rem; } }
