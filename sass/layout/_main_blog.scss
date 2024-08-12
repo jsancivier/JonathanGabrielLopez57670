@@ -1,0 +1,59 @@
+.portadaBlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/blog_portada.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    h1{
+        font-family: "Karantina";
+        font-size: map-get($fuente,l );
+        color: map-get($colores,color4);
+        text-align: center;
+        &::first-letter{
+            color: map-get($colores,color2 );
+        }
+    }
+}
+
+.articulos{
+    @include flex(column,nowrap,flex-start,none,30px);
+    margin: 50px 0px;
+}
+
+.articuloBlog1{
+    @include flex(row,wrap,space-between,center,0px);
+    width: 100%;
+    height: 400px;
+    img{
+        width: 50%;
+        height: 80%;
+        object-fit: contain;
+    }
+    div{
+        @include flex(column,nowrap,center,none,0px);
+        width: 50%;
+        height: 100%;
+        padding: 20px 40px;
+        p{
+            font-family: "Poppins";
+            color: map-get($colores, color4 );
+        }
+    }
+}
+
+.articuloBlog2{
+    @extend .articuloBlog1;
+    flex-direction: row-reverse;
+    a{
+        text-align: end
+    }
+}
+
+
+.articuloBlog3{
+    @extend .articuloBlog1
+}

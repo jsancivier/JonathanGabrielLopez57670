@@ -1,0 +1,135 @@
+.fondoPortada{
+    @include flex (row,nowrap,flex-end,flex-start,0px);
+        width: 100%;
+        height: 500px;
+        background-image: url(../assets/portada_index_opaca2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        div{
+            @include flex(column,wrap,flex-start,center,0px);
+            width: 60%;
+            height: 500px;
+            h1{
+                font-family: "Karantina";
+                color: map-get($colores , color4 );
+                font-size: map-get($fuente , l );
+                font-weight: bold;
+                text-align: center;
+                padding-top: 5.25rem;
+            h2{
+                margin: 1rem 1rem;
+            }
+            }
+        }
+}
+
+.sectionTorneos{
+    @include flex(column,wrap, space-around,stretch,0px);
+    width: 100%;
+    height: auto;
+    article{
+        @include flex(column,nowrap,flex-start,stretch,0px);
+        width: 100%;
+        height: 200px;
+        margin-bottom: 100px;
+        h2{
+            text-align: center
+        }
+        p{
+            font-family: "Poppins";
+        }
+    }
+    div{
+        @include flex (column,nowrap,space-between,none,0px);
+        width: 100%;
+        div{
+            @include flex (row,wrap,space-evenly,none,0px);
+            width: 100%;
+            div{
+                @include flex(row,wrap,none,none,0px);
+                width: 13.75rem;
+                height: 15.625rem;
+                margin: 0px 20px;
+                img{
+                    height: 15rem;
+                    width: 13rem;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    
+}
+
+.marginBoton{
+    @include flex(row,nowrap,center,none,0px);
+    margin: 50px 0px;
+}
+
+.equipoHome{
+    @include flex(row,wrap,space-evenly,none,0px);
+    width: 100%;
+    height: auto;
+    margin: 100px 0px;
+    
+}
+
+.miembrosEquipo{
+    @include flex(column,nowrap,none,center,0px);
+    width: 400px;
+    height: 400px;
+    a{
+        display: block;
+    }
+}
+.miembrosEquipo{
+    @include flex(column,nowrap,none,center,0px);
+    width: 400px;
+    height: 400px;
+    img{
+        display: flex;
+        height: 70%;
+        width: 100%;
+        object-fit: contain;
+}
+}
+.miembrosEquipo{
+    @include flex(column,nowrap,none,center,0px);
+    width: 400px;
+    height: 400px;
+    p{
+        text-align: center;
+        font-family: "Poppins";
+    }
+}
+
+.news{
+        font-family: "Poppins"
+    }
+
+.newsLetter{
+    @include  flex (row,wrap,center,none,10px);
+    margin:50px 0px;
+    img {
+        width: 3rem;
+        height: 2rem;
+    }
+}
+
+.formColumnMedia655{
+        label{
+        font-size: map-get($fuente, sm );
+        font-family: "Poppins";
+        color: map-get($colores, color4 );
+    }
+}
+
+
+.formColumnMedia655{
+    input{
+        width: 300px;
+        height: 25px;
+        border-radius: 20px;
+    }
+}
