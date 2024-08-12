@@ -2,5 +2,31 @@ footer{
     @include flex(row,wrap,space-between,baseline,0px);
     background-color: map-get($colores , color3 );
     padding-top: 20px;
+    div{
+        @include flex(row,wrap,center,baseline,0.2px);
+        p{
+            font-size: map-get($fuente,xsm );
+            font-family: "Poppins";
+            
+        }
+        ul{
+            @include flex(row,nowrap,flex-start,center,0.5px);
+            img{
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+    ul{
+        @include flex(row,wrap,flex-start,baseline,0.5px);
+        p{
+            font-size: map-get($fuente,xsm );
+            font-family: "Poppins";
+        }
+        img{
+            width: 1rem;
+            height: 1rem;
+        }
+    }
 
 }

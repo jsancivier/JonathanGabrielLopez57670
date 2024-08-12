@@ -41,8 +41,8 @@ h2{
     color: map-get($colores, color4 );
     text-decoration-line: underline;
     text-decoration-color: map-get($colores , color2 );
-    /*margin-top: 3.125rem;
-    margin-bottom: 3.125rem;*/
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
 }
 
 p{
@@ -50,7 +50,7 @@ p{
     font-weight: 300;
     color: map-get( $colores , color4 );
     font-size: map-get($fuente, sm );
-    margin: 24px 24px;
+    margin: 12px 12px;
 }
 
 

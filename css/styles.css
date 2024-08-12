@@ -37,15 +37,15 @@ h2 {
   color: white;
   text-decoration-line: underline;
   text-decoration-color: #F29D38;
-  /*margin-top: 3.125rem;
-    margin-bottom: 3.125rem;*/ }
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem; }
 
 p {
   font-family: "Popins";
   font-weight: 300;
   color: white;
   font-size: 1rem;
-  margin: 24px 24px; }
+  margin: 12px 12px; }
 
 footer {
   display: flex;
@@ -56,6 +56,39 @@ footer {
   gap: 0px;
   background-color: black;
   padding-top: 20px; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.2px; }
+    footer div p {
+      font-size: 0.9375rem;
+      font-family: "Poppins"; }
+    footer div ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5px; }
+      footer div ul img {
+        width: 1.5rem;
+        height: 1.5rem; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 0.5px; }
+    footer ul p {
+      font-size: 0.9375rem;
+      font-family: "Poppins"; }
+    footer ul img {
+      width: 1rem;
+      height: 1rem; }
 
 .navBar {
   display: flex;
@@ -125,15 +158,26 @@ button {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: none;
-  gap: 1.25rem;
+  align-items: stretch;
+  gap: 0px;
   width: 100%;
   height: auto; }
+  .sectionTorneos article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 0px; }
+    .sectionTorneos article h2 {
+      text-align: center; }
+    .sectionTorneos article p {
+      font-family: "Poppins"; }
   .sectionTorneos div {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: none;
     gap: 0px;
     width: 100%; }
@@ -158,7 +202,7 @@ button {
         .sectionTorneos div div div img {
           height: 100%;
           width: 100%;
-          border-radius: 10%; }
+          object-fit: contain; }
 
 .marginBoton {
   display: flex;
@@ -205,8 +249,7 @@ button {
     display: flex;
     height: 70%;
     width: 100%;
-    object-fit: contain;
-    border-radius: 1.875rem; }
+    object-fit: contain; }
 
 .miembrosEquipo {
   display: flex;
@@ -218,7 +261,11 @@ button {
   width: 400px;
   height: 400px; }
   .miembrosEquipo p {
-    text-align: center; }
+    text-align: center;
+    font-family: "Poppins"; }
+
+.news {
+  font-family: "Poppins"; }
 
 .newsLetter {
   display: flex;
@@ -257,41 +304,11 @@ button {
   background-size: cover; }
   .fondoNosotros h1 {
     font-family: "Karantina";
-    font-size: 8.125rem; }
+    font-size: 8.125rem;
+    color: white; }
     .fondoNosotros h1::first-letter {
       color: #F29D38; }
 
-/*.sobreNosotros{
-        @include flex(row,wrap,space-between,center,0px);
-        width: 100px;
-        height: 500px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 0 1.875rem;
-}
-
-.imagenNosotros{
-    width: 45%;
-    height: 80%;
-    border-radius: 10%;
-}
-
-.quienesSomos{
-    display: flex;
-    flex-flow: column nowrap;
-    height: 80%;
-    width: 40%;
-    h2{
-        text-align: center;
-    }
-    a{
-        text-align: end;
-        margin-right: 10px;
-        font-family: "Karantina";
-        letter-spacing: 0.1rem;
-    }
-}
-*/
 article {
   display: flex;
   flex-direction: row;
@@ -315,58 +332,70 @@ article {
     flex-flow: column wrap;
     width: 50%;
     height: 80%; }
+    article .quienesSomos h2 {
+      margin: 1.5rem 0rem; }
     article .quienesSomos p {
-      font-family: "Poppins"; }
+      font-family: "Poppins";
+      font-size: 1rem; }
     article .quienesSomos a {
       text-align: end;
       font-family: "Karantina";
       letter-spacing: 0.1rem;
       margin-right: 10%; }
 
-footer div {
+.portadaBlog {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/blog_portada.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .portadaBlog h1 {
+    font-family: "Karantina";
+    font-size: 8.125rem;
+    color: white;
+    text-align: center; }
+    .portadaBlog h1::first-letter {
+      color: #F29D38; }
+
+.articulos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: none;
+  gap: 30px;
+  margin: 50px 0px; }
+
+.articuloBlog1, .articuloBlog2, .articuloBlog3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   gap: 0px;
-  margin: 5px 10px 5px 10px; }
-  footer div p {
-    font-size: 0.9375rem; }
+  width: 100%;
+  height: 400px; }
+  .articuloBlog1 img, .articuloBlog2 img, .articuloBlog3 img {
+    width: 50%;
+    height: 80%;
+    object-fit: contain; }
+  .articuloBlog1 div, .articuloBlog2 div, .articuloBlog3 div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: none;
+    gap: 0px;
+    width: 50%;
+    height: 100%;
+    padding: 20px 40px; }
+    .articuloBlog1 div p, .articuloBlog2 div p, .articuloBlog3 div p {
+      font-family: "Poppins";
+      color: white; }
 
-.footer1 ul {
-  display: flex;
-  justify-content: flex-start; }
-
-.footerLogos2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; }
-  .footerLogos2 p {
-    font-size: 0.9375rem;
-    margin-left: .4rem;
-    /*margin-right: .4rem;*/ }
-
-.footerLogos2 .logoDerechos {
-  width: 1rem;
-  height: 1rem; }
-
-.footerLogos1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.01rem; }
-  .footerLogos1 p {
-    font-size: 0.9375rem;
-    margin-left: .4rem;
-    /*margin-right: .4rem;*/ }
-
-.footerLogos1 .logosRedes {
-  width: 2.5rem;
-  height: 1.5rem;
-  /*margin: 0.03rem 0rem;*/ }
+.articuloBlog2 {
+  flex-direction: row-reverse; }
