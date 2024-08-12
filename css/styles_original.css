@@ -163,7 +163,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     width: 13.75rem;
-    height: 250px;
+    height: 15.625rem;
     margin: 0 20px;
 }
 
@@ -644,14 +644,6 @@ ul{
     color: #fafafa;
 }
 
-h3{
-    font-family: "Karantina",system-ui;
-    font-weight: normal;
-    font-size: 2.125rem;
-    color: #fafafa;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
 /*.principalJuegos{
     margin-top: 50px;
@@ -666,14 +658,14 @@ h3{
         }*/
         
         
-        .juegos1{
-    display: grid;
-    width: 100%;
-    height: 2000px;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(20,100px);
-    gap: .625rem .625rem;
-}
+.juegos1{
+        display: grid;
+        width: 100%;
+        height: 2000px;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(20,100px);
+        gap: .625rem .625rem;
+        }
 
 .juegos1 img{
     width: 100%;
@@ -737,7 +729,7 @@ h3{
 .juegos1 .juegosM{
     grid-row: 4/7;
     grid-column: 4/7;
-
+    
 }
 .juegos1 .juegosN{
     grid-row: 10/13;
@@ -769,6 +761,14 @@ h3{
     grid-column: 7/9;
 }
 
+h3{
+    font-family: "Karantina",system-ui;
+    font-weight: normal;
+    font-size: 2.125rem;
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 50px;
+    }
 footer{
     background-color: black
     

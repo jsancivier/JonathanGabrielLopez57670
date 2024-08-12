@@ -97,10 +97,13 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: none;
-  margin: 5px 10px;
+  margin: 0px 10px;
   font-family: "Karantina";
   color: white;
-  font-size: 1rem; }
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000; }
 
 button {
   padding: 5px 10px;
@@ -168,7 +171,10 @@ button {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
-    gap: 0px; }
+    gap: 0px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px; }
     .sectionTorneos article h2 {
       text-align: center; }
     .sectionTorneos article p {
@@ -200,8 +206,8 @@ button {
         height: 15.625rem;
         margin: 0px 20px; }
         .sectionTorneos div div div img {
-          height: 100%;
-          width: 100%;
+          height: 15rem;
+          width: 13rem;
           object-fit: contain; }
 
 .marginBoton {
@@ -399,6 +405,8 @@ article {
 
 .articuloBlog2 {
   flex-direction: row-reverse; }
+  .articuloBlog2 a {
+    text-align: end; }
 
 .contacto {
   display: flex;
@@ -492,3 +500,119 @@ article {
           width: 2.5rem;
           height: 2.5rem;
           object-fit: contain; }
+
+.fondoJuegos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/mortal_kombat.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .fondoJuegos h1 {
+    font-family: "Karantina";
+    font-size: 8.125rem;
+    color: white; }
+    .fondoJuegos h1::first-letter {
+      color: #F29D38; }
+
+.buscadorJuegos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem; }
+  .buscadorJuegos input {
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 5px; }
+  .buscadorJuegos label {
+    font-family: "Poppins";
+    font-size: 1rem;
+    color: white; }
+
+.juegos1 {
+  display: grid;
+  width: 100%;
+  height: 2000px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(20, 100px);
+  gap: .625rem .625rem; }
+  .juegos1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
+  .juegos1 .juegosA, .juegos1 .juegosB, .juegos1 .juegosC, .juegos1 .juegosD {
+    grid-row: 1/4;
+    grid-column: 1/3; }
+  .juegos1 .juegosB {
+    grid-column: 3/5; }
+  .juegos1 .juegosC {
+    grid-column: 5/7; }
+  .juegos1 .juegosD {
+    grid-column: 7/9; }
+  .juegos1 .juegosE {
+    grid-row: 4/7;
+    grid-column: 1/4; }
+  .juegos1 .juegosF {
+    grid-row: 7/10;
+    grid-column: 5/7; }
+  .juegos1 .juegosG {
+    grid-row: 4/7;
+    grid-column: 7/9; }
+  .juegos1 .juegosH {
+    grid-row: 7/10;
+    grid-column: 1/3; }
+  .juegos1 .juegosI {
+    grid-row: 7/10;
+    grid-column: 3/5; }
+  .juegos1 .juegosJ {
+    grid-row: 7/10;
+    grid-column: 7/9; }
+  .juegos1 .juegosK {
+    grid-row: 10/13;
+    grid-column: 1/4; }
+  .juegos1 .juegosL {
+    grid-row: 10/13;
+    grid-column: 4/7; }
+  .juegos1 .juegosM {
+    grid-row: 4/7;
+    grid-column: 4/7; }
+  .juegos1 .juegosN {
+    grid-row: 10/13;
+    grid-column: 7/9; }
+  .juegos1 .juegosO {
+    grid-row: 13/16;
+    grid-column: 1/4; }
+  .juegos1 .juegosP {
+    grid-row: 13/16;
+    grid-column: 4/6; }
+  .juegos1 .juegosQ {
+    grid-row: 13/16;
+    grid-column: 6/9; }
+  .juegos1 .juegosR {
+    grid-row: 16/19;
+    grid-column: 1/4; }
+  .juegos1 .juegosS {
+    grid-row: 16/19;
+    grid-column: 4/7; }
+  .juegos1 .juegosT {
+    grid-row: 16/19;
+    grid-column: 7/9; }
+
+H3 {
+  font-family: "Karantina";
+  font-size: 2.125rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px; }
