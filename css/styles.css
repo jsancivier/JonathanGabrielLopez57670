@@ -612,24 +612,11 @@ button {
   font-weight: 500;
   font-size: 0.9375rem; }
 
-@media (max-width: 1024px) {
-  .tituloPpal h1 {
-    font-size: 4.25rem; }
-  .tituloPpal h2 {
-    font-size: 3rem; }
-  .juegosHome {
-    justify-content: center; }
-  .imagenJuego {
-    width: 45%;
-    padding: 25px; }
-  .miembrosEquipo {
-    width: 45%; } }
-
 @media (max-width: 768px) {
-  .tituloPpal h1 {
+  main section .tituloPpal h1 {
     padding-top: 2rem;
-    font-size: 6rem; }
-  .tituloPpal h2 {
+    font-size: 5rem; }
+  main section .tituloPpal h2 {
     font-size: 3rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem; }
@@ -647,4 +634,44 @@ button {
   .articuloBlog3 {
     align-items: center; }
     .articuloBlog3 h2 {
-      font-size: 2.25rem; } }
+      font-size: 2.25rem; }
+  .nosotros {
+    display: flex; }
+    .nosotros article {
+      display: flex;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      height: auto; }
+      .nosotros article .imgNosotros {
+        width: 70%;
+        height: 80%; }
+        .nosotros article .imgNosotros img {
+          width: 100%;
+          height: 100%;
+          border-radius: 5%; }
+      .nosotros article .quienesSomos {
+        width: 100%;
+        height: auto; }
+  .contacto1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto; }
+    .contacto1 div {
+      width: 100%; }
+    .contacto1 .contactoRedesSociales {
+      width: 100%; }
+      .contacto1 .contactoRedesSociales div {
+        width: 100%; }
+        .contacto1 .contactoRedesSociales div p {
+          padding: 0px 20px; } }

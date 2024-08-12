@@ -1,15 +1,19 @@
 @media(max-width:768px){
-    .tituloPpal{
-        h1{
-        padding-top: 2rem;
-        font-size: 6rem;
+    main{
+        section{
+            .tituloPpal{
+                h1{
+                padding-top: 2rem;
+                font-size: 5rem;
+                }
+                h2 {
+                    font-size: 3rem;
+                    margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
+                }
+            }
         }
-        h2 {
-            font-size: 3rem;
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-    }
+    }  
     .torneosHome{
         div{
             div{
@@ -35,6 +39,46 @@
         align-items: center;
         h2{
             font-size: 2.25rem;
+        }
+    }
+    .nosotros{
+        display: flex;
+        article{
+            display: flex;
+            @include flex(column,nowrap,flex-start,center,20px);
+            width: 100%;
+            height: auto;
+            .imgNosotros{
+                width: 70%;
+                height: 80%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5%;
+                }
+            }
+            .quienesSomos{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .contacto1{
+        @include flex(column,nowrap,flex-start,center,20px);
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+        div{
+            width: 100%;
+        }
+        .contactoRedesSociales{
+            width: 100%;
+            div{
+                width: 100%;
+                p{
+                    padding: 0px 20px;
+                }
+            }
         }
     }
 }
