@@ -1,0 +1,118 @@
+@media(max-width:320px){
+    header{
+        nav{
+            button{
+                padding: 4px 7px ;
+                font-size: 0.5rem;
+            }
+        }     
+    }
+    main{
+        .fondoPortada{
+            background-position: top;
+            div{
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                h1{
+                    font-size: 4rem;
+                }
+                h2{
+                    font-size: 2rem;
+                }
+                a{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .sectionTorneos{
+            article{
+                width: 100%;
+                height: auto;
+                p{
+                    margin: 0px 5px;
+                }
+            }
+            div{
+                div{
+                    gap: 20px;
+                    div{
+                        width: 100%;
+                        margin: 0px 0px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        section{
+            .equipoHome{
+                gap: 50px;
+                margin-top: 20px;
+            }
+        }
+        section{
+            .newsLetter{
+                @include flex(column,nowrap,flex-start,center,10px);
+                form{
+                    @include flex(column,nowrap,flex-start,center,10px);
+                }
+            }
+        }
+    }
+    main{
+        section{
+            .contacto{
+                h1{
+                    font-size: 4rem;
+                }
+            }
+        }
+        .contacto1{
+            h2{
+                font-size: 2rem;
+            }
+            form{
+                ul{
+                    align-items: end;
+                    padding-right: 15px;
+                    li{
+                        margin-right: 15px
+                        label{
+                        }
+                        .inputLargo2{
+                            width: 170px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .fondoNosotros{
+            h1{
+                font-size: 4rem;
+            }
+        }
+        .nosotros{
+            article{
+                .imgNosotros{
+                    width: 100%;
+                }
+                .quienesSomos{
+                    h2{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        @include flex(column,nowrap,center,center,5px);
+        ul{
+            @include flex(column,nowrap,center,center,0.1px);
+        }
+    }
+    
+}

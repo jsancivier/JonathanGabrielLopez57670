@@ -675,3 +675,80 @@ button {
         width: 100%; }
         .contacto1 .contactoRedesSociales div p {
           padding: 0px 20px; } }
+
+@media (max-width: 320px) {
+  header nav button {
+    padding: 4px 7px;
+    font-size: 0.5rem; }
+  main .fondoPortada {
+    background-position: top; }
+    main .fondoPortada div {
+      width: 100%;
+      height: auto;
+      margin-top: 50px; }
+      main .fondoPortada div h1 {
+        font-size: 4rem; }
+      main .fondoPortada div h2 {
+        font-size: 2rem; }
+      main .fondoPortada div a {
+        margin-top: 20px; }
+  main .sectionTorneos article {
+    width: 100%;
+    height: auto; }
+    main .sectionTorneos article p {
+      margin: 0px 5px; }
+  main .sectionTorneos div div {
+    gap: 20px; }
+    main .sectionTorneos div div div {
+      width: 100%;
+      margin: 0px 0px; }
+      main .sectionTorneos div div div img {
+        width: 100%; }
+  main section .equipoHome {
+    gap: 50px;
+    margin-top: 20px; }
+  main section .newsLetter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; }
+    main section .newsLetter form {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px; }
+  main section .contacto h1 {
+    font-size: 4rem; }
+  main .contacto1 h2 {
+    font-size: 2rem; }
+  main .contacto1 form ul {
+    align-items: end;
+    padding-right: 15px; }
+    main .contacto1 form ul li {
+      margin-right: 15px label; }
+      main .contacto1 form ul li .inputLargo2, main .contacto1 div form ul li .inputLargo3, main .contacto1 div form ul li .inputLargo4 {
+        width: 170px; }
+  main .fondoNosotros h1 {
+    font-size: 4rem; }
+  main .nosotros article .imgNosotros {
+    width: 100%; }
+  main .nosotros article .quienesSomos h2 {
+    font-size: 2rem; }
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; }
+    footer ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.1px; } }
