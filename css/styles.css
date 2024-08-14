@@ -623,24 +623,23 @@ button {
   .torneosHome div div {
     width: 16.75rem;
     height: 18.75rem; }
-  main section section {
+  main {
     height: auto; }
-    main section section .articuloBlog1, main section section .articuloBlog2, main section section .articuloBlog3 {
-      height: 500px; }
-      main section section .articuloBlog1 img, main section section .articuloBlog2 img, main section section .articuloBlog3 img {
-        height: 100%; }
-      main section section .articuloBlog1 div h2, main section section .articuloBlog2 div h2, main section section .articuloBlog3 div h2 {
-        font-size: 2rem; }
-      main section section .articuloBlog1 div p, main section section .articuloBlog2 div p, main section section .articuloBlog3 div p {
-        font-size: 0.9375rem; }
-    main section section .articuloBlog2 {
-      height: 500px; }
-      main section section .articuloBlog2 img {
-        height: 100%; }
-      main section section .articuloBlog2 div h2 {
-        font-size: 2rem; }
-      main section section .articuloBlog2 div p {
-        font-size: 0.9375rem; }
+    main section .articulos {
+      height: auto; }
+      main section .articulos .articuloBlog1, main section .articulos .articuloBlog2, main section .articulos .articuloBlog3 {
+        height: 550px;
+        align-items: center; }
+        main section .articulos .articuloBlog1 img, main section .articulos .articuloBlog2 img, main section .articulos .articuloBlog3 img {
+          height: 100%; }
+        main section .articulos .articuloBlog1 div, main section .articulos .articuloBlog2 div, main section .articulos .articuloBlog3 div {
+          justify-content: flex-start;
+          gap: 5px; }
+          main section .articulos .articuloBlog1 div h2, main section .articulos .articuloBlog2 div h2, main section .articulos .articuloBlog3 div h2 {
+            font-size: 2rem;
+            margin-bottom: 10px; }
+          main section .articulos .articuloBlog1 div p, main section .articulos .articuloBlog2 div p, main section .articulos .articuloBlog3 div p {
+            font-size: 0.9375rem; }
   .nosotros {
     display: flex; }
     .nosotros article {
@@ -744,6 +743,25 @@ button {
     width: 100%; }
   main .nosotros article .quienesSomos h2 {
     font-size: 2rem; }
+  main .portadaBlog h1 {
+    font-size: 4rem; }
+  main section .articulos {
+    margin: 10px; }
+    main section .articulos .articuloBlog1, main section .articulos .articuloBlog2, main section .articulos .articuloBlog3 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0px;
+      height: auto; }
+      main section .articulos .articuloBlog1 img, main section .articulos .articuloBlog2 img, main section .articulos .articuloBlog3 img {
+        width: 100%; }
+      main section .articulos .articuloBlog1 div, main section .articulos .articuloBlog2 div, main section .articulos .articuloBlog3 div {
+        width: 100%;
+        padding: 5px 2px; }
+        main section .articulos .articuloBlog1 div a, main section .articulos .articuloBlog2 div a, main section .articulos .articuloBlog3 div a {
+          text-align: end; }
   footer {
     display: flex;
     flex-direction: column;
