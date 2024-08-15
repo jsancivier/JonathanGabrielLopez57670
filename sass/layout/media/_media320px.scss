@@ -134,6 +134,29 @@
             }
         }
     }
+    main{
+        section{
+            .fondoJuegos{
+                h1{
+                    font-size: 4rem;
+                }
+                h2{
+                    font-size: 2rem;
+                }
+            }
+            .buscadorJuegos{
+                input{
+                    width: 280px;
+                }
+            }
+        }
+        div{
+            h3{
+                font-size: 1.5rem;
+            }
+        
+        }
+    }
     
     footer{
         @include flex(column,nowrap,center,center,5px);
