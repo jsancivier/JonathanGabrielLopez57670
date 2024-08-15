@@ -587,20 +587,20 @@ footer {
       width: 1rem;
       height: 1rem; }
 
-.navBar {
+header nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: none;
-  margin: 0px 10px;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 0px; }
+
+.navbar-nav li a {
   font-family: "Karantina";
   color: white;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 1000; }
+  font-size: 1rem; }
+  .navbar-nav li a:hover {
+    color: #F29D38; }
 
 button {
   padding: 5px 10px;
