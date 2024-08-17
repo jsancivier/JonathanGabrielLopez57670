@@ -47,6 +47,9 @@ p {
   font-size: 1rem;
   margin: 12px 12px; }
 
+strong {
+  color: #F29D38; }
+
 .tamañoLogo {
   width: 3rem;
   height: 3rem; }
