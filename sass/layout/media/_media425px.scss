@@ -1,0 +1,178 @@
+@media(max-width:425px){
+    header{
+        nav{
+            button{
+                padding: 5px 8px ;
+                font-size: 0.7rem;
+            }
+        }     
+    }
+    main{
+        section{
+            .tituloPpal{
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 100px;
+                h1{
+                    font-size: 4rem;
+                }
+                h2{
+                    font-size: 2rem;
+                }
+            }
+        }
+        .sectionTorneos{
+            article{
+                height: auto;
+                p{
+                    margin: 0px 5px ;
+                }
+            }
+            div{
+                div{
+                    margin-right: 50px;
+                    gap: 20px;
+                    div{
+                        width: 19rem;
+                        height: 21rem;
+                        img{
+                            width: 19rem;
+                            height: 21rem;
+                        }
+                    }
+                }
+            }
+        }
+        section{
+            .newsLetter{
+                @include flex(column,nowrap,flex-start,center,10px);
+                form{
+                    @include flex(column,nowrap,flex-start,center,10px);
+                }
+            }
+        }
+    }
+    main{
+        section{
+            .fondoJuegos{
+                h1{
+                    font-size: 5rem;
+                }
+                h2{
+                    font-size: 2.5rem;
+                }
+            }
+            .buscadorJuegos{
+                input{
+                    width: 300px;
+                }
+            }
+        }
+    }
+    main{
+        .portadaBlog{
+            h1{
+                font-size: 5rem
+            }
+        }
+        section{
+            .articulos{
+                margin: 10px;
+                .articuloBlog1{
+                    @include flex(column,nowrap,space-between,center,0px);
+                    height: auto;
+                    img{
+                        width: 100%;
+                    }
+                    div{
+                        width: 100%;
+                        padding: 5px 2px;
+                        p{
+                            margin: 0px 5px;
+                        }
+                        a{
+                            text-align: end;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .fondoNosotros{
+            h1{
+                font-size: 5rem;
+            }
+        }
+        .nosotros{
+            article{
+                .imgNosotros{
+                    width: 100%;
+                }
+                .quienesSomos{
+                    h2{
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        section{
+            .contacto{
+                h1{
+                    font-size: 5rem;
+                }
+            }
+        }
+        .contacto1{
+            div{
+                h2{
+                    font-size: 2.5rem;
+                }
+                form{
+                    .formulario{
+                        padding-right: 20px;
+                        li{
+                            @include flex(column,nowrap,flex-start,flex-start,0.2rem);
+                            .inputLargo2{
+                                width: 350px;
+                            }
+                        }
+                        li{
+                            .inputLargo3{
+                                width: 350px;
+                            }
+                        }
+                        li{
+                            .inputLargo4{
+                                width: 350px;
+                            }
+                        }
+                    }
+                }
+            }
+            .contactoRedesSociales{
+                .redesContacto{
+                    div{
+                        h2{
+                            font-size: 2.5rem;
+                        }
+                        p{
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+    footer{
+        @include flex(column,nowrap,center,center,5px);
+        ul{
+            @include flex(column,nowrap,center,center,0.1px);
+        }
+    }
+}

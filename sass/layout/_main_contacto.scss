@@ -40,11 +40,10 @@
                     }
                     .inputLargo3{
                         @extend .inputLargo2;
-                            width: 290px;
                     }
                     .inputLargo4{
                         @extend .inputLargo2;
-                            height: 100px;
+                            height: 150px;
                             border-radius: 5px;
                     }
                 }

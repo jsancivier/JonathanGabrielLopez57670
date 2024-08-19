@@ -391,10 +391,8 @@ article {
         width: 370px;
         height: 25px;
         border-radius: 20px; }
-      .contacto1 div form ul li .inputLargo3 {
-        width: 290px; }
       .contacto1 div form ul li .inputLargo4 {
-        height: 100px;
+        height: 150px;
         border-radius: 5px; }
   .contacto1 .contactoRedesSociales {
     display: flex;
@@ -615,6 +613,28 @@ button {
   font-weight: 500;
   font-size: 0.9375rem; }
 
+@media (max-width: 1024px) {
+  main section .tituloPpal h1 {
+    font-size: 5.5rem; }
+  main section .tituloPpal h2 {
+    font-size: 3.5rem; }
+  main .nosotros article .imgNosotros {
+    width: 35%;
+    height: 75%; }
+  main .nosotros article .quienesSomos h2 {
+    font-size: 3rem; }
+  main .nosotros article .quienesSomos p {
+    margin: 0px 5px; }
+  main .contacto1 div form .formulario {
+    padding-right: 20px; }
+    main .contacto1 div form .formulario li .inputLargo2, main .contacto1 div form .formulario ul li .inputLargo3, main .contacto1 div form ul .formulario li .inputLargo3, main .contacto1 div form .formulario ul li .inputLargo4, main .contacto1 div form ul .formulario li .inputLargo4 {
+      width: 300px; }
+    main .contacto1 div form .formulario li .inputLargo3 {
+      width: 300px; }
+    main .contacto1 div form .formulario li .inputLargo4 {
+      width: 300px;
+      height: 150px; } }
+
 @media (max-width: 768px) {
   main section .tituloPpal h1 {
     padding-top: 2rem;
@@ -698,6 +718,115 @@ button {
       height: 18.75rem;
       object-fit: cover; } }
 
+@media (max-width: 425px) {
+  header nav button {
+    padding: 5px 8px;
+    font-size: 0.7rem; }
+  main section .tituloPpal {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px; }
+    main section .tituloPpal h1 {
+      font-size: 4rem; }
+    main section .tituloPpal h2 {
+      font-size: 2rem; }
+  main .sectionTorneos article {
+    height: auto; }
+    main .sectionTorneos article p {
+      margin: 0px 5px; }
+  main .sectionTorneos div div {
+    margin-right: 50px;
+    gap: 20px; }
+    main .sectionTorneos div div div {
+      width: 19rem;
+      height: 21rem; }
+      main .sectionTorneos div div div img {
+        width: 19rem;
+        height: 21rem; }
+  main section .newsLetter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; }
+    main section .newsLetter form {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px; }
+  main section .fondoJuegos h1 {
+    font-size: 5rem; }
+  main section .fondoJuegos h2 {
+    font-size: 2.5rem; }
+  main section .buscadorJuegos input {
+    width: 300px; }
+  main .portadaBlog h1 {
+    font-size: 5rem; }
+  main section .articulos {
+    margin: 10px; }
+    main section .articulos .articuloBlog1, main section .articulos .articuloBlog2, main section .articulos .articuloBlog3 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0px;
+      height: auto; }
+      main section .articulos .articuloBlog1 img, main section .articulos .articuloBlog2 img, main section .articulos .articuloBlog3 img {
+        width: 100%; }
+      main section .articulos .articuloBlog1 div, main section .articulos .articuloBlog2 div, main section .articulos .articuloBlog3 div {
+        width: 100%;
+        padding: 5px 2px; }
+        main section .articulos .articuloBlog1 div p, main section .articulos .articuloBlog2 div p, main section .articulos .articuloBlog3 div p {
+          margin: 0px 5px; }
+        main section .articulos .articuloBlog1 div a, main section .articulos .articuloBlog2 div a, main section .articulos .articuloBlog3 div a {
+          text-align: end; }
+  main .fondoNosotros h1 {
+    font-size: 5rem; }
+  main .nosotros article .imgNosotros {
+    width: 100%; }
+  main .nosotros article .quienesSomos h2 {
+    font-size: 3rem; }
+  main section .contacto h1 {
+    font-size: 5rem; }
+  main .contacto1 div h2 {
+    font-size: 2.5rem; }
+  main .contacto1 div form .formulario {
+    padding-right: 20px; }
+    main .contacto1 div form .formulario li {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.2rem; }
+      main .contacto1 div form .formulario li .inputLargo2, main .contacto1 div form .formulario ul li .inputLargo3, main .contacto1 div form ul .formulario li .inputLargo3, main .contacto1 div form .formulario ul li .inputLargo4, main .contacto1 div form ul .formulario li .inputLargo4 {
+        width: 350px; }
+    main .contacto1 div form .formulario li .inputLargo3 {
+      width: 350px; }
+    main .contacto1 div form .formulario li .inputLargo4 {
+      width: 350px; }
+  main .contacto1 .contactoRedesSociales .redesContacto div h2 {
+    font-size: 2.5rem; }
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; }
+    footer ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.1px; } }
+
 @media (max-width: 320px) {
   header nav button {
     padding: 4px 7px;
@@ -722,10 +851,12 @@ button {
   main .sectionTorneos div div {
     gap: 20px; }
     main .sectionTorneos div div div {
-      width: 100%;
+      width: 17rem;
+      height: 19rem;
       margin: 0px 0px; }
       main .sectionTorneos div div div img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
   main section .equipoHome {
     gap: 50px;
     margin-top: 20px; }
@@ -745,15 +876,23 @@ button {
       gap: 10px; }
   main section .contacto h1 {
     font-size: 4rem; }
-  main .contacto1 h2 {
+  main .contacto1 div h2 {
     font-size: 2rem; }
-  main .contacto1 form ul {
-    align-items: end;
-    padding-right: 15px; }
-    main .contacto1 form ul li {
-      margin-right: 15px label; }
-      main .contacto1 form ul li .inputLargo2, main .contacto1 div form ul li .inputLargo3, main .contacto1 div form ul li .inputLargo4 {
-        width: 170px; }
+  main .contacto1 div form .formulario {
+    padding-right: 20px; }
+    main .contacto1 div form .formulario li {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.2rem; }
+      main .contacto1 div form .formulario li .inputLargo2, main .contacto1 div form .formulario ul li .inputLargo3, main .contacto1 div form ul .formulario li .inputLargo3, main .contacto1 div form .formulario ul li .inputLargo4, main .contacto1 div form ul .formulario li .inputLargo4 {
+        width: 270px; }
+    main .contacto1 div form .formulario li .inputLargo3 {
+      width: 270px; }
+    main .contacto1 div form .formulario li .inputLargo4 {
+      width: 270px; }
   main .fondoNosotros h1 {
     font-size: 4rem; }
   main .nosotros article .imgNosotros {

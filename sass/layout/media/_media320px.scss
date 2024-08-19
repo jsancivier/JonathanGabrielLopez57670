@@ -37,10 +37,12 @@
                 div{
                     gap: 20px;
                     div{
-                        width: 100%;
+                        width: 17rem;
+                        height: 19rem;
                         margin: 0px 0px;
                         img{
                             width: 100%;
+                            height: 100%;
                         }
                     }
                 }
@@ -70,19 +72,28 @@
             }
         }
         .contacto1{
-            h2{
-                font-size: 2rem;
-            }
-            form{
-                ul{
-                    align-items: end;
-                    padding-right: 15px;
-                    li{
-                        margin-right: 15px
-                        label{
+            div{
+                h2{
+                    font-size: 2rem;
+                }
+                form{
+                    .formulario{
+                        padding-right:20px;
+                        li{
+                            @include flex(column,nowrap,flex-start,flex-start,0.2rem);
+                            .inputLargo2{
+                                width: 270px;
+                            }
                         }
-                        .inputLargo2{
-                            width: 170px;
+                        li{
+                            .inputLargo3{
+                                width: 270px;
+                            }
+                        }
+                        li{
+                            .inputLargo4{
+                                width: 270px;
+                            }
                         }
                     }
                 }
