@@ -809,11 +809,11 @@ button {
       align-items: flex-start;
       gap: 0.2rem; }
       main .contacto1 div form .formulario li .inputLargo2, main .contacto1 div form .formulario ul li .inputLargo3, main .contacto1 div form ul .formulario li .inputLargo3, main .contacto1 div form .formulario ul li .inputLargo4, main .contacto1 div form ul .formulario li .inputLargo4 {
-        width: 350px; }
+        width: 320px; }
     main .contacto1 div form .formulario li .inputLargo3 {
-      width: 350px; }
+      width: 320px; }
     main .contacto1 div form .formulario li .inputLargo4 {
-      width: 350px; }
+      width: 320px; }
   main .contacto1 .contactoRedesSociales .redesContacto div h2 {
     font-size: 2.5rem; }
   footer {
